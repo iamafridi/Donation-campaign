@@ -11,7 +11,8 @@ element : <MainLayout></MainLayout>,
 children : [
     {
         path : "/",
-        element : <Home></Home>
+        element : <Home></Home>,
+        loader : () => fetch('/public/donation.json')
     },
     {
         path : "/donation",

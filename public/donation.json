@@ -1,0 +1,75 @@
+[
+    {
+      "title": "Helping Hand for Education",
+      "category": "Education",
+      "color": "Blue",
+      "amount": 500,
+      "description": "Support our mission to provide quality education to underprivileged children in your community.",
+      "image_url": "https://i.ibb.co/RCPLFkg/Clothing.png"
+    },
+    {
+      "title": "Clean Water Initiative",
+      "category": "Environment",
+      "color": "Green",
+      "amount": 300,
+      "description": "Join us in ensuring access to clean and safe drinking water for communities in need.",
+      "image_url": "https://i.ibb.co/xMXqSYv/Education.png"
+    },
+    {
+      "title": "Medical Relief for Vulnerable Families",
+      "category": "Healthcare",
+      "color": "Red",
+      "amount": 750,
+      "description": "Help us provide medical care and supplies to families struggling with health challenges.",
+      "image_url": "https://i.ibb.co/Yp7xkMv/Health.png"
+    },
+    {
+      "title": "Feeding the Hungry",
+      "category": "Food & Hunger",
+      "color": "Orange",
+      "amount": 200,
+      "description": "Contribute to our efforts to provide nutritious meals to those facing food insecurity.",
+      "image_url": "https://i.ibb.co/PjNwHDn/Food.png"
+    },
+    {
+      "title": "Shelter for Homeless Veterans",
+      "category": "Housing",
+      "color": "Gray",
+      "amount": 1000,
+      "description": "Support homeless veterans by providing them with safe and stable housing options.",
+      "image_url": "https://i.ibb.co/PjNwHDn/Food.png"
+    },
+    {
+      "title": "Animal Welfare Fund",
+      "category": "Animals",
+      "color": "Brown",
+      "amount": 150,
+      "description": "Help rescue and care for animals in need, ensuring they find loving homes.",
+      "image_url": "https://i.ibb.co/Yp7xkMv/Health.png"
+    },
+    {
+      "title": "Art and Culture Preservation",
+      "category": "Arts & Culture",
+      "color": "Purple",
+      "amount": 400,
+      "description": "Preserve and promote the rich cultural heritage and arts of your region.",
+      "image_url": "https://i.ibb.co/xMXqSYv/Education.png"
+    },
+    {
+      "title": "Disaster Relief Fund",
+      "category": "Emergency Response",
+      "color": "Yellow",
+      "amount": 600,
+      "description": "Provide immediate relief to communities affected by natural disasters and emergencies.",
+      "image_url": "https://i.ibb.co/PjNwHDn/Food.png"
+    },
+    {
+      "title": "Empowerment for Women and Girls",
+      "category": "Gender Equality",
+      "color": "Pink",
+      "amount": 350,
+      "description": "Support programs that empower women and girls to reach their full potential.",
+      "image_url": "https://i.ibb.co/Yp7xkMv/Health.png"
+    }
+  ]
+  
