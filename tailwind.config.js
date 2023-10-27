@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [
+  plugins:  [ require("daisyui"),
     require('flowbite/plugin')({
         charts: true,
     })
