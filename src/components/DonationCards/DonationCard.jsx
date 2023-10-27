@@ -1,15 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const DonationCard = ({ donation }) => {
 
 
-    const { title, category, color, amount, description, image_url } = donation || {}
-
-
-
-
-
-
+    const { id,title, category, color, amount, description, image_url } = donation || {}
 
     return (
         <div className='py-5'>
@@ -21,8 +16,12 @@ const DonationCard = ({ donation }) => {
                         layout="fill"
                     />
                 </div>
-                 <div className="p-6">
-                 <div className="badge badge-primary badge-outline justify-start">{donation.category}</div>
+                <div className="p-6">
+                   <Link to={`/donations/${id}`}>
+                   <div className="badge badge-primary badge-outline justify-start">{donation.category}</div>
+                   </Link>
+                    
+                   
                     <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
                         {donation.title}
                     </h5>

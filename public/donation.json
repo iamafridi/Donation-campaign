@@ -1,5 +1,6 @@
 [
     {
+      "id": 1,
       "title": "Helping Hand for Education",
       "category": "Education",
       "color": "Blue",
@@ -8,6 +9,7 @@
       "image_url": "https://i.ibb.co/RCPLFkg/Clothing.png"
     },
     {
+      "id": 2,
       "title": "Clean Water Initiative",
       "category": "Environment",
       "color": "Green",
@@ -16,6 +18,7 @@
       "image_url": "https://i.ibb.co/xMXqSYv/Education.png"
     },
     {
+      "id": 3,
       "title": "Medical Relief for Vulnerable Families",
       "category": "Healthcare",
       "color": "Red",
@@ -24,6 +27,7 @@
       "image_url": "https://i.ibb.co/Yp7xkMv/Health.png"
     },
     {
+      "id": 4,
       "title": "Feeding the Hungry",
       "category": "Food & Hunger",
       "color": "Orange",
@@ -32,6 +36,7 @@
       "image_url": "https://i.ibb.co/PjNwHDn/Food.png"
     },
     {
+      "id": 5,
       "title": "Shelter for Homeless Veterans",
       "category": "Housing",
       "color": "Gray",
@@ -40,6 +45,7 @@
       "image_url": "https://i.ibb.co/PjNwHDn/Food.png"
     },
     {
+      "id": 6,
       "title": "Animal Welfare Fund",
       "category": "Animals",
       "color": "Brown",
@@ -48,6 +54,7 @@
       "image_url": "https://i.ibb.co/Yp7xkMv/Health.png"
     },
     {
+      "id": 7,
       "title": "Art and Culture Preservation",
       "category": "Arts & Culture",
       "color": "Purple",
@@ -56,6 +63,7 @@
       "image_url": "https://i.ibb.co/xMXqSYv/Education.png"
     },
     {
+      "id": 8,
       "title": "Disaster Relief Fund",
       "category": "Emergency Response",
       "color": "Yellow",
@@ -64,6 +72,34 @@
       "image_url": "https://i.ibb.co/PjNwHDn/Food.png"
     },
     {
+      "id": 9,
+      "title": "Empowerment for Women and Girls",
+      "category": "Gender Equality",
+      "color": "Pink",
+      "amount": 350,
+      "description": "Support programs that empower women and girls to reach their full potential.",
+      "image_url": "https://i.ibb.co/Yp7xkMv/Health.png"
+    },
+    {
+      "id": 10,
+      "title": "Art and Culture Preservation",
+      "category": "Arts & Culture",
+      "color": "Purple",
+      "amount": 400,
+      "description": "Preserve and promote the rich cultural heritage and arts of your region.",
+      "image_url": "https://i.ibb.co/xMXqSYv/Education.png"
+    },
+    {
+      "id": 11,
+      "title": "Disaster Relief Fund",
+      "category": "Emergency Response",
+      "color": "Yellow",
+      "amount": 600,
+      "description": "Provide immediate relief to communities affected by natural disasters and emergencies.",
+      "image_url": "https://i.ibb.co/PjNwHDn/Food.png"
+    },
+    {
+      "id": 12,
       "title": "Empowerment for Women and Girls",
       "category": "Gender Equality",
       "color": "Pink",
@@ -71,5 +107,4 @@
       "description": "Support programs that empower women and girls to reach their full potential.",
       "image_url": "https://i.ibb.co/Yp7xkMv/Health.png"
     }
-  ]
-  
+]
