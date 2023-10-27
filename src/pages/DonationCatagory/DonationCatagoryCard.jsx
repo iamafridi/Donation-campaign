@@ -1,9 +1,37 @@
 import React from 'react';
+import swal from 'sweetalert';
 
-const DonationCatagoryCard = ({donation}) => {
+const DonationCatagoryCard = ({ donation }) => {
 
     const { id, title, category, color, amount, description, image_url } = donation || {}
 
+    const handleDonate = () => {
+        console.log(donation);
+
+        const addDonationArray = [];
+
+        const donationItems = JSON.parse(localStorage.getItem('Donations'))
+
+        if (!donationItems) {
+            addDonationArray.push(donation)
+            localStorage.setItem('Donations', JSON.stringify(addDonationArray))
+            swal("Thank You For Your Donation!", "D O N A T E D", "success");
+        }
+        else {
+
+            const isExists = donationItems.find(donation => donation.id == id)
+            if (!isExists) {
+
+                addDonationArray.push(...donationItems, donation)
+                localStorage.setItem('Donations', JSON.stringify(addDonationArray))
+                swal("Thank You For Your Donation!", "D O N A T E D", "success");
+            }
+            else {
+                swal("Warning", "Already Donated", "info");
+            }
+
+        }
+    }
 
     return (
         <div>
@@ -17,6 +45,7 @@ const DonationCatagoryCard = ({donation}) => {
                 </div>
                 <div className="relative w-[1200px] p-6 -mt-24 bg-[#0B0B0B80] rounded-xl">
                     <button
+                        onClick={handleDonate}
                         className="select-none rounded-lg bg-pink-500 py-3 px-6 text-center align-middletext-xl font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-yellow-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                         type="button"
                         data-ripple-light="true"
